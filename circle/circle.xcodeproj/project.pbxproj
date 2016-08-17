@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3854702B1D64394B007F850E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3854702A1D64394B007F850E /* main.m */; };
-		3854702E1D64394B007F850E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3854702D1D64394B007F850E /* AppDelegate.m */; };
-		385470311D64394B007F850E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 385470301D64394B007F850E /* ViewController.m */; };
+		1C4FBA511079B09A3D4CFDDA /* libPods-circle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 736F54B57976FEE2BFE091B3 /* libPods-circle.a */; };
+		382A60211D64471300984728 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 382A601E1D64471300984728 /* AppDelegate.m */; };
+		382A60221D64471300984728 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 382A601F1D64471300984728 /* main.m */; };
+		382A60291D64476400984728 /* ChainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 382A60261D64476400984728 /* ChainTableViewController.m */; };
+		382A602D1D6447A700984728 /* MyUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 382A602B1D6447A700984728 /* MyUserCell.m */; };
+		382A602E1D6447A700984728 /* MyUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 382A602C1D6447A700984728 /* MyUserCell.xib */; };
+		382A60321D6447C400984728 /* NearAddCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 382A60301D6447C400984728 /* NearAddCell.m */; };
+		382A60331D6447C400984728 /* NearAddCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 382A60311D6447C400984728 /* NearAddCell.xib */; };
+		382A60371D6447E800984728 /* ConectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 382A60351D6447E800984728 /* ConectionCell.m */; };
+		382A60381D6447E800984728 /* ConectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 382A60361D6447E800984728 /* ConectionCell.xib */; };
+		382A603B1D6458A400984728 /* MyUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 382A603A1D6458A400984728 /* MyUserModel.m */; };
 		385470341D64394B007F850E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 385470321D64394B007F850E /* Main.storyboard */; };
 		385470361D64394B007F850E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 385470351D64394B007F850E /* Assets.xcassets */; };
 		385470391D64394B007F850E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 385470371D64394B007F850E /* LaunchScreen.storyboard */; };
 		385470441D64394B007F850E /* circleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 385470431D64394B007F850E /* circleTests.m */; };
 		3854704F1D64394B007F850E /* circleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3854704E1D64394B007F850E /* circleUITests.m */; };
+		389A230B1D645B10003D4C37 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 389A23081D645B10003D4C37 /* UIImage+Image.m */; };
+		389A230C1D645B10003D4C37 /* UIImageView+Header.m in Sources */ = {isa = PBXBuildFile; fileRef = 389A230A1D645B10003D4C37 /* UIImageView+Header.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +45,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		382A601D1D64471300984728 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		382A601E1D64471300984728 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		382A601F1D64471300984728 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		382A60251D64476400984728 /* ChainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChainTableViewController.h; sourceTree = "<group>"; };
+		382A60261D64476400984728 /* ChainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChainTableViewController.m; sourceTree = "<group>"; };
+		382A602A1D6447A700984728 /* MyUserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyUserCell.h; sourceTree = "<group>"; };
+		382A602B1D6447A700984728 /* MyUserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyUserCell.m; sourceTree = "<group>"; };
+		382A602C1D6447A700984728 /* MyUserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyUserCell.xib; sourceTree = "<group>"; };
+		382A602F1D6447C400984728 /* NearAddCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearAddCell.h; sourceTree = "<group>"; };
+		382A60301D6447C400984728 /* NearAddCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearAddCell.m; sourceTree = "<group>"; };
+		382A60311D6447C400984728 /* NearAddCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NearAddCell.xib; sourceTree = "<group>"; };
+		382A60341D6447E800984728 /* ConectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConectionCell.h; sourceTree = "<group>"; };
+		382A60351D6447E800984728 /* ConectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConectionCell.m; sourceTree = "<group>"; };
+		382A60361D6447E800984728 /* ConectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConectionCell.xib; sourceTree = "<group>"; };
+		382A60391D6458A400984728 /* MyUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyUserModel.h; sourceTree = "<group>"; };
+		382A603A1D6458A400984728 /* MyUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyUserModel.m; sourceTree = "<group>"; };
 		385470261D64394B007F850E /* circle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = circle.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3854702A1D64394B007F850E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3854702C1D64394B007F850E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3854702D1D64394B007F850E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3854702F1D64394B007F850E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		385470301D64394B007F850E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		385470331D64394B007F850E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		385470351D64394B007F850E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		385470381D64394B007F850E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +72,13 @@
 		3854704A1D64394B007F850E /* circleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = circleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3854704E1D64394B007F850E /* circleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = circleUITests.m; sourceTree = "<group>"; };
 		385470501D64394B007F850E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		389A23071D645B10003D4C37 /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
+		389A23081D645B10003D4C37 /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
+		389A23091D645B10003D4C37 /* UIImageView+Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Header.h"; sourceTree = "<group>"; };
+		389A230A1D645B10003D4C37 /* UIImageView+Header.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Header.m"; sourceTree = "<group>"; };
+		736F54B57976FEE2BFE091B3 /* libPods-circle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-circle.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C861825C9DC100E4BEA86578 /* Pods-circle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-circle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-circle/Pods-circle.debug.xcconfig"; sourceTree = "<group>"; };
+		DDA2A220B985766C14725F6F /* Pods-circle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-circle.release.xcconfig"; path = "Pods/Target Support Files/Pods-circle/Pods-circle.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C4FBA511079B09A3D4CFDDA /* libPods-circle.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +107,78 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		012960F1C3045338232BACC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				736F54B57976FEE2BFE091B3 /* libPods-circle.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		382A60181D64471300984728 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				382A60231D64476400984728 /* Chain（商家） */,
+				389A23061D645B10003D4C37 /* Category */,
+				382A601C1D64471300984728 /* Others */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		382A601C1D64471300984728 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				382A601D1D64471300984728 /* AppDelegate.h */,
+				382A601E1D64471300984728 /* AppDelegate.m */,
+				382A601F1D64471300984728 /* main.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		382A60231D64476400984728 /* Chain（商家） */ = {
+			isa = PBXGroup;
+			children = (
+				382A60241D64476400984728 /* Controller */,
+				382A60271D64476400984728 /* Model */,
+				382A60281D64476400984728 /* View */,
+			);
+			path = "Chain（商家）";
+			sourceTree = "<group>";
+		};
+		382A60241D64476400984728 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				382A60251D64476400984728 /* ChainTableViewController.h */,
+				382A60261D64476400984728 /* ChainTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		382A60271D64476400984728 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				382A60391D6458A400984728 /* MyUserModel.h */,
+				382A603A1D6458A400984728 /* MyUserModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		382A60281D64476400984728 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				382A602A1D6447A700984728 /* MyUserCell.h */,
+				382A602B1D6447A700984728 /* MyUserCell.m */,
+				382A602C1D6447A700984728 /* MyUserCell.xib */,
+				382A602F1D6447C400984728 /* NearAddCell.h */,
+				382A60301D6447C400984728 /* NearAddCell.m */,
+				382A60311D6447C400984728 /* NearAddCell.xib */,
+				382A60341D6447E800984728 /* ConectionCell.h */,
+				382A60351D6447E800984728 /* ConectionCell.m */,
+				382A60361D6447E800984728 /* ConectionCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		3854701D1D64394B007F850E = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +186,8 @@
 				385470421D64394B007F850E /* circleTests */,
 				3854704D1D64394B007F850E /* circleUITests */,
 				385470271D64394B007F850E /* Products */,
+				550AF4CA5EB0412A0397ECA3 /* Pods */,
+				012960F1C3045338232BACC5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +204,7 @@
 		385470281D64394B007F850E /* circle */ = {
 			isa = PBXGroup;
 			children = (
-				3854702C1D64394B007F850E /* AppDelegate.h */,
-				3854702D1D64394B007F850E /* AppDelegate.m */,
-				3854702F1D64394B007F850E /* ViewController.h */,
-				385470301D64394B007F850E /* ViewController.m */,
+				382A60181D64471300984728 /* Classes */,
 				385470321D64394B007F850E /* Main.storyboard */,
 				385470351D64394B007F850E /* Assets.xcassets */,
 				385470371D64394B007F850E /* LaunchScreen.storyboard */,
@@ -117,7 +217,6 @@
 		385470291D64394B007F850E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3854702A1D64394B007F850E /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +239,26 @@
 			path = circleUITests;
 			sourceTree = "<group>";
 		};
+		389A23061D645B10003D4C37 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				389A23071D645B10003D4C37 /* UIImage+Image.h */,
+				389A23081D645B10003D4C37 /* UIImage+Image.m */,
+				389A23091D645B10003D4C37 /* UIImageView+Header.h */,
+				389A230A1D645B10003D4C37 /* UIImageView+Header.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		550AF4CA5EB0412A0397ECA3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C861825C9DC100E4BEA86578 /* Pods-circle.debug.xcconfig */,
+				DDA2A220B985766C14725F6F /* Pods-circle.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +266,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 385470531D64394B007F850E /* Build configuration list for PBXNativeTarget "circle" */;
 			buildPhases = (
+				3CCBB84DD423AE039AD2E9D1 /* [CP] Check Pods Manifest.lock */,
 				385470221D64394B007F850E /* Sources */,
 				385470231D64394B007F850E /* Frameworks */,
 				385470241D64394B007F850E /* Resources */,
+				86C4BB7612DA7DB794C5FF89 /* [CP] Embed Pods Frameworks */,
+				432888C4F9467365E8282B12 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,8 +368,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				382A602E1D6447A700984728 /* MyUserCell.xib in Resources */,
 				385470391D64394B007F850E /* LaunchScreen.storyboard in Resources */,
+				382A60381D6447E800984728 /* ConectionCell.xib in Resources */,
 				385470361D64394B007F850E /* Assets.xcassets in Resources */,
+				382A60331D6447C400984728 /* NearAddCell.xib in Resources */,
 				385470341D64394B007F850E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,14 +393,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3CCBB84DD423AE039AD2E9D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		432888C4F9467365E8282B12 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-circle/Pods-circle-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86C4BB7612DA7DB794C5FF89 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-circle/Pods-circle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		385470221D64394B007F850E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				385470311D64394B007F850E /* ViewController.m in Sources */,
-				3854702E1D64394B007F850E /* AppDelegate.m in Sources */,
-				3854702B1D64394B007F850E /* main.m in Sources */,
+				382A60321D6447C400984728 /* NearAddCell.m in Sources */,
+				389A230B1D645B10003D4C37 /* UIImage+Image.m in Sources */,
+				382A602D1D6447A700984728 /* MyUserCell.m in Sources */,
+				382A603B1D6458A400984728 /* MyUserModel.m in Sources */,
+				382A60221D64471300984728 /* main.m in Sources */,
+				382A60211D64471300984728 /* AppDelegate.m in Sources */,
+				389A230C1D645B10003D4C37 /* UIImageView+Header.m in Sources */,
+				382A60371D6447E800984728 /* ConectionCell.m in Sources */,
+				382A60291D64476400984728 /* ChainTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +595,7 @@
 		};
 		385470541D64394B007F850E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C861825C9DC100E4BEA86578 /* Pods-circle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = circle/Info.plist;
@@ -427,6 +607,7 @@
 		};
 		385470551D64394B007F850E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDA2A220B985766C14725F6F /* Pods-circle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = circle/Info.plist;
@@ -501,6 +682,7 @@
 				385470551D64394B007F850E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		385470561D64394B007F850E /* Build configuration list for PBXNativeTarget "circleTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +691,7 @@
 				385470581D64394B007F850E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		385470591D64394B007F850E /* Build configuration list for PBXNativeTarget "circleUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +700,7 @@
 				3854705B1D64394B007F850E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
